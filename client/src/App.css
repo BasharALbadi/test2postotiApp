@@ -1,0 +1,255 @@
+.header {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.nav {
+  display: flex;
+  align-items: center; /* Vertically align items */
+}
+
+.logo {
+  height: 50px; /* Adjust the logo size as needed */
+}
+
+.nav a {
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Set text color */
+  margin: 0 15px; /* Add spacing between links */
+}
+
+.nav a:hover {
+  color: #007bff; /* Change color on hover (optional) */
+}
+
+.nav-link a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: rgb(255, 200, 0);
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+.login {
+  align-items: center;
+  justify-content: center;
+}
+.div-form {
+  border-style: solid;
+  border-width: thin;
+  font-size: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  border-color: #a6d49f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.login-form input {
+  margin: 2px;
+}
+.smalltext {
+  font-size: 14px;
+  font-weight: bold;
+  color: #522a27;
+}
+
+.columndiv1 {
+  border-color: #a6d49f;
+  font-size: xx-large;
+  background-color: rgb(252, 252, 252);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.columndiv2 {
+  border-color: rgb(182, 179, 176);
+  font-size: xx-large;
+  height: auto;
+  padding: 20px;
+  /*   background-image: url("http://localhost:3000/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+.loginImage {
+  height: 100%;
+  width: 100%;
+}
+.appTitle {
+  text-align: center;
+  color: #c73e1d;
+}
+.formrow {
+  background-color: #522a27;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.side {
+  display: flex;
+  vertical-align: top;
+}
+.checkbox {
+  width: 25px;
+  height: 25px;
+}
+.button {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  background-color: #c59849;
+  border-style: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.navigation {
+  background-color: #9cb380;
+  height: 75px;
+  font-weight: bolder;
+  color: #522a27;
+}
+.logo {
+  width: 150px;
+  height: 70px;
+}
+.footer {
+  display: flex;
+  background-color: #9cb380;
+  height: 100px;
+  color: #522a27;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  flex-shrink: 0;
+}
+.socialmedia {
+  width: 100px;
+  height: 100px;
+}
+
+.userImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.userInfos {
+  padding: 20px;
+  text-align: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
+  min-height: 500px;
+}
+.sharePosts {
+  padding-top: 10px;
+  height: 200px;
+  border-style: solid;
+  border-width: thin;
+  margin-top: 10px;
+  border-color: #a6d49f;
+  text-align: center;
+}
+.inputPost {
+  margin-right: 10px;
+  width: 80%;
+  border-color: #522a27;
+}
+.input-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.postButton {
+  background-color: #522a27;
+}
+.dept {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.selectDept .selectDept {
+  width: 10%;
+}
+.postUserImage {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+
+  height: auto;
+  width: 100%;
+}
+.postMsg {
+  padding: 20px;
+
+  border: 1px solid rgb(244, 241, 241);
+}
+.postedBy {
+  padding: 10px;
+  background-color: rgb(236, 238, 236);
+  border-radius: 10px;
+}
+.postByName {
+  font-weight: bolder;
+  font: optional;
+}
+.postDate {
+  margin-left: 5px;
+}
+.navs {
+  padding: 10px;
+}
+.userName {
+  font-weight: bold;
+}
+.likes {
+  padding: 5px;
+}
+
+.error {
+  color: red;
+  font-size: small;
+}
